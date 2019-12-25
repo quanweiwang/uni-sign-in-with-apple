@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{title}}</text></view><block wx:if="{{system>=13&&platform=='ios'}}"><view data-event-opts="{{[['tap',[['appleLogin',['$event']]]]]}}" class="sign-in-with-apple" bindtap="__e">sign in with apple</view></block></view>
